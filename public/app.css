@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: wheat;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "learn-react",
+    "version": "1.1.0",
+    "main": "index.html",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.17.6",
+        "@babel/core": "^7.17.5",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.3"
+    },
+    "scripts": {
+        "build": "babel src --out dir public",
+        "start": "lite-server --baseDir public"
+    },
+    "dependencies": {
+        "lite-server": "^2.6.1"
+    }
+}

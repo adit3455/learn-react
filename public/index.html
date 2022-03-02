@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimoni</title>
+    <link rel="stylesheet" href="app.css ">
+</head>
+<body>
+    <div id="root"></div>
+
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        // const root = document.querySelector('#root');
+
+        // const element = document.createElement('h1');
+        // element.textContent = 'Hello From Javascript';
+        // element.className = 'heading1';
+
+        // root.appendChild(element);
+
+        // const li1 = React.createElement('li', {
+        //     children: 'Apple',
+        // });
+        // const li2 = React.createElement('li', {
+        //     children: 'Grape',
+        // });
+        // const li3 = React.createElement('li', {
+        //     children: 'Orange',
+        // });
+        
+        // const element = React.createElement('ul', {
+        //     children: [li1,li2,li3],
+        // });
+
+        
+        // another syntax
+        // const element = React.createElement('ul',
+        // {className: 'List'},
+        // React.createElement('li', null, 'Apple'),
+        // React.createElement('li', null, 'Orange'),
+        // React.createElement('li', null, 'Grape'),
+        // );
+
+        // the easiest syntax :Noted it must use Babel 'buble script src'
+        // const element1 = (
+        //     <ul>
+        //     <li>Apple</li>
+        //     <li>Orange</li>
+        //     <li>Grape</li>
+        //     </ul>
+        // );
+
+        
+
+        //const element = <h1 className="heading-1">Hello World</h1> 
+
+        // const element = <img src="https://images.unsplash.com/photo-1627483297886-49710ae1fc22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Unsplash" />
+
+        
+        // insert style in css via jsx
+            //     const element = (
+    //     <div 
+    //     style={{
+    //         width: '200px',
+    //         height: '200px',
+    //         backgroundColor: '#000 ',
+    //     }}></div>
+    // );
+
+        // Jam Sederhana
+        const root = document.querySelector('#root');
+
+
+
+        return (
+            <>
+            <h1 id="judul">Halo Ini Judul</h1>
+            <button onCLick={function (){
+                setDiklik(true);
+            }}>Klik Disini</button>
+            </>
+        );
+        ReactDOM.render(<App />, root);
+   
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
